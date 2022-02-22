@@ -15,7 +15,7 @@ variable "aws_account_name" {
 }
 
 variable "aws_transit_instance_size" {
-  default = "t2.micro"
+  default = "t3.micro"
 }
 
 variable "aws_transit1_region" {
@@ -47,7 +47,7 @@ variable "aws_spoke1_cidr" {
 }
 
 variable "aws_test_instance_size" {
-  default = "t3.micro"
+  default = "t2.micro"
 }
 
 variable "azure_account_name" {
